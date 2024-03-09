@@ -4,9 +4,44 @@
  import pic3 from '../assets/images.jpeg'
 
  const pokemon = [
-    
+    {
+        id:1,
+        name :  "charmander",
+        image : pic,
+        type : "Fire",
+        hp :36,
+        moves : ["Scratch" , "Growl","Leer" ,"Ember"],
+        weaknesses : ["water" , "Rock"]
+      },
+      {
+        id:2,
+        name :  "Pikachu",
+        image : pic1,
+        type : "Electric",
+        hp :36,
+        moves : ["Scratch" , "Growl","Leer" ,"Ember"],
+        weaknesses : ["water" , "Rock"]
+      },
+      {
+        id:3,
+        name :  "Aesthetic",
+        image : pic2,
+        type : "water",
+        hp :36,
+        moves : ["Scratch" , "Growl","Leer" ,"Ember"],
+        weaknesses : ["water" , "Rock"]
+      },
+      {
+        id:4,
+        name :  "Champ",
+        image : pic3,
+        type : "grass",
+        hp :36,
+        moves : ["Scratch" , "Growl","Leer" ,"Ember"],
+        weaknesses : ["water" , "Rock"]
+      },
   {
-    id:1,
+    id:5,
     name :  "charmander",
     image : pic,
     type : "Fire",
@@ -15,7 +50,7 @@
     weaknesses : ["water" , "Rock"]
   },
   {
-    id:2,
+    id:6,
     name :  "Pikachu",
     image : pic1,
     type : "Electric",
@@ -24,7 +59,7 @@
     weaknesses : ["water" , "Rock"]
   },
   {
-    id:3,
+    id:7,
     name :  "Aesthetic",
     image : pic2,
     type : "water",
@@ -33,7 +68,7 @@
     weaknesses : ["water" , "Rock"]
   },
   {
-    id:4,
+    id:8,
     name :  "Champ",
     image : pic3,
     type : "grass",

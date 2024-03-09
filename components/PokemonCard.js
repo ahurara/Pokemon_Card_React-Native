@@ -75,7 +75,7 @@ const style = StyleSheet.create({
     nameContainer:{
         flexDirection : 'row',
         justifyContent:'space-between',
-        marginBottom:20
+        marginBottom:10
     },
     name:{
         fontSize:25,
@@ -90,16 +90,16 @@ const style = StyleSheet.create({
         marginBottom:16
     },
     typeContainer:{
-        marginBottom:30,
+        marginBottom:20,
         alignItems:'center'
     },
     badge:{
         flexDirection:"row",
         alignItems:'center',
-        paddingVertical:6,
-        paddingHorizontal:12,
+        paddingVertical:2,
+        paddingHorizontal:10,
         borderRadius:20,
-        borderWidth:4
+        borderWidth:3
     },
     typeEmoji:{
         fontSize:18,
@@ -110,7 +110,7 @@ const style = StyleSheet.create({
         fontWeight:"bold"
     },
     moveContainer:{
-        marginBottom:16
+        marginBottom:10
     },
     moveText:{
         fontSize:18,
